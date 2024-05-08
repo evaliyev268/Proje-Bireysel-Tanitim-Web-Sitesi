@@ -1,0 +1,18 @@
+.navbar{
+    background-color: black;
+}
+
+.navbar-text,
+.navbar-brand
+{
+    color: white !important;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.nav-link,
+.nav-link.active
+{
+color: white !important;
+
+}
