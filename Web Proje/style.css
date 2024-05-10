@@ -38,3 +38,32 @@ transition: 0.5s ease;
     
    
 }
+
+div.divsitebasliklari{
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+div.img{
+display: flex;
+justify-content: left;
+align-items:start;
+padding-left: 330px;
+}
+
+div.img img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border:3px solid black;
+    
+}
+div.HakkimdaMetni
+{
+     
+left: 50%;
+top: 50%; 
+width: 300px;
+
+}
