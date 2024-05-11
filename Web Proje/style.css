@@ -1,6 +1,17 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    
+    justify-content: center;
+    
+    
+}
 .navbar{
     background-color: rgb(0, 0, 0);
-    padding: 10px;
+    
 }
 
 .navbar-text,
@@ -45,25 +56,47 @@ div.divsitebasliklari{
 }
 
 
-div.img{
-display: flex;
-justify-content: left;
-align-items:start;
-padding-left: 330px;
-}
 
-div.img img{
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    border:3px solid black;
+div.HakkimdaResimVeMetn{
+    display: flex;
+    margin: 150px auto;
+    width: 70%;
     
 }
-div.HakkimdaMetni
+img{
+    float: left;
+   max-width:320px;
+    border-radius: 50%;
+    border:3px solid black;
+    margin-right: 15px;
+    margin-left: 250px;
+    
+    
+    
+    
+}
+.HakkimdaMetni 
 {
-     
-left: 50%;
-top: 50%; 
-width: 300px;
+    font-size: 42px;
+  padding-left: 200px;
+  padding-right: 100px;
+  
+  margin-right: 100px;
+  margin-top: 15px;
+  padding-top: 50px;
+  
+   
+    
+}
 
+.HakkimdaMetni p
+{
+
+}
+.vertical{
+    width: 1px;
+    height: 500px;
+    background-color: black;
+    margin-left: 100px;
+    float: left;
 }
