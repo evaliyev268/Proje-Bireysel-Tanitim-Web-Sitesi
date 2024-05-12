@@ -68,8 +68,9 @@ img{
    max-width:320px;
     border-radius: 50%;
     border:3px solid black;
-    margin-right: 15px;
+    margin-right: 25px;
     margin-left: 250px;
+
     
     
     
@@ -80,23 +81,43 @@ img{
     font-size: 42px;
   padding-left: 200px;
   padding-right: 100px;
-  
   margin-right: 100px;
   margin-top: 15px;
   padding-top: 50px;
+  font-family:'Freeman';
   
    
     
 }
+div.sehrimGenelBaslik{
+    
+    
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin-right: 60px;
+    
 
-.HakkimdaMetni p
-{
 
 }
-.vertical{
-    width: 1px;
-    height: 500px;
-    background-color: black;
-    margin-left: 100px;
-    float: left;
+div.sehrimVbaslik{
+    font-family: 'Poetsen One';
+    font-size: 100px;
+}
+
+
+div.sehrimbaslik{
+    font-family: 'Big Shoulders Inline Display';
+    font-size: 40px;
+
+}
+    
+   div.sliderBaslik{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 250px;
+   }
+.carousel-Item{
+    height: 200px;
+    width: 400px;
 }
