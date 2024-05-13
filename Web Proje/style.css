@@ -4,7 +4,7 @@ padding: 0;
 box-sizing: border-box;
 }
 body{
-    
+    height: 100vh;
     justify-content: center;
     
     
@@ -18,7 +18,7 @@ body{
 .navbar-brand
 {
     color: white !important;
-font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-family:Verdana, Tahoma, sans-serif;
 }
 .nav-link{
     color:white !important;
@@ -63,14 +63,14 @@ div.HakkimdaResimVeMetn{
     width: 70%;
     
 }
-img{
+div.HakkindaResim img{
     float: left;
    max-width:320px;
     border-radius: 50%;
     border:3px solid black;
     margin-right: 25px;
     margin-left: 250px;
-
+    
     
     
     
@@ -117,7 +117,27 @@ div.sehrimbaslik{
     font-size: 40px;
     margin-top: 250px;
    }
-.carousel-Item{
-    height: 200px;
-    width: 400px;
-}
+
+   .c-item
+   {
+    height:1000px;
+    padding-left: 70px;
+    padding-right: 70px;
+   }
+   
+   .c-img{
+    height: 100%;
+    object-fit:cover;
+
+
+   }
+   .c-imgh {
+    background-color: rgba(255, 255, 255, 0.35);
+    font-size: 50px;
+    color:rgba(0, 0, 0, 0.879);
+    font-family: 'Freeman';
+    transition: 0.5s;
+    text-decoration: none ;
+    
+   }
+   
