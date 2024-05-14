@@ -140,4 +140,93 @@ div.sehrimbaslik{
     text-decoration: none ;
     
    }
-   
+   div.Karabaginfotextfp
+   {
+    
+   }
+
+   div.Karabaginfotextp1
+   {
+    margin-top: 70px;
+    font-size: 25px;
+    text-indent: 20px;
+    margin-bottom: 20px;
+     margin-left: 100px;
+     margin-right: 100px;
+     font-family: 'Radio Canada Big';
+
+   }
+   div.Karabaginfotextp2
+   {
+   font-size: 25px;
+   text-indent:20px;
+   margin-bottom: 20px;
+   margin-left: 100px;
+     margin-right: 100px;
+     font-family: 'Radio Canada Big';
+   }
+   div.Karabaginfotextp3
+   {
+    font-size:25px;
+    text-indent: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+     margin-right: 100px;
+     font-family: 'Radio Canada Big';
+     
+   }
+   div.Karabaginfotextep{
+    font-size: 20px;
+    text-indent: 30px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Big Shoulders Inline Display';
+   }
+   div.Karabaginfotextfinal
+   {
+    font-size: 40px;
+    text-align: center;
+    color: red;
+    margin-bottom: 50px;
+    font-family: 'Archivo Black';
+
+
+
+   }
+   div.SevincImages{
+   margin-top: 300px;
+   margin-bottom: 200px;
+   }
+
+   div.Sevincimgs{
+     display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+   }
+   div.sevincImage1 img{
+    height: 500px;
+    width: 600px;
+
+   }
+   div.sevincImage2 img{
+    height: 500px;
+    width: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+   }
+   div.sevincImage3 img{
+    height: 500px;
+    width: 600px;
+
+   }
+   div.SevincImagestext{
+    text-align: center;
+    font-size: 30px;
+   }
