@@ -185,7 +185,7 @@ div.sehrimbaslik{
    }
    div.Karabaginfotextfinal
    {
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
     color: red;
     margin-bottom: 50px;
@@ -197,6 +197,9 @@ div.sehrimbaslik{
    div.SevincImages{
    margin-top: 300px;
    margin-bottom: 200px;
+   margin-left: 100px;
+margin-right: 100px;
+
    }
 
    div.Sevincimgs{
@@ -205,28 +208,125 @@ div.sehrimbaslik{
     align-content: center;
     justify-content: center;
     justify-items: center;
-    margin-left: 30px;
-    margin-right: 30px;
+   
     margin-bottom: 5px;
    }
    div.sevincImage1 img{
     height: 500px;
     width: 600px;
+    
+
 
    }
    div.sevincImage2 img{
     height: 500px;
     width: 600px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 
    }
    div.sevincImage3 img{
     height: 500px;
     width: 600px;
 
+
    }
    div.SevincImagestext{
     text-align: center;
     font-size: 30px;
+    
    }
+
+   div.HarıBulbulimgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   }
+   div.HarıBulbul img{
+    height: 500px;
+    width: 600px;
+
+
+   }
+   div.HarıBulbulimgtextS{
+    display: flex;
+
+   }
+   div.HarıBulbulimgtext1{
+     
+    margin-left: 550px;
+    
+    
+
+   }
+   div.HarıBulbulimgtext2{
+    margin-left: 320px;
+   
+
+   }
+
+   div.alticizgili
+   {
+    color: blueviolet;
+    font-family:'Jost';
+    font-size: 35px;
+   
+   }
+div.HarıBulbulText1{
+font-size: 30px;
+font-family:'Barlow Condensed';
+margin-left: 100px;
+margin-right: 100px;
+}
+div.HarıBulbulText2{
+    font-size: 30px;
+font-family:'Barlow Condensed';
+margin-left: 100px;
+margin-right: 100px;
+
+}
+div.HarıBulbul{
+    margin-top: 400px;
+    margin-bottom: 150px;
+}
+div.HarıBulbulMFestivali {
+    
+}
+div.HarıBulbulMFestivaliimg img {
+height: 500px;
+width: 600px;
+margin-top: 120px;
+
+
+
+}
+div.HarıBulbulMFestivaliimg
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+}
+div.HarıBulbulFtext{
+    text-align: center;
+}
+div.HarıBulbulFText{
+    font-size: 30px;
+font-family:'Barlow Condensed';
+margin-left: 100px;
+margin-right: 100px;
+}
+div.SehrimToFutbolTakimim{
+    text-align: center;
+    font-size: 37px;
+    margin-top: 250px;
+    
+}
+div.SehrimToFutbolTakimim a{
+    margin-left: 10px;
+}
+div.siyah{
+    font-family: 'Archivo Black';
+    margin-right: 10px;
+}
