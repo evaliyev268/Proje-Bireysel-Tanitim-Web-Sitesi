@@ -510,3 +510,115 @@ div.KarabagFKBasarimtext1{
     font-family: 'Archivo Black';
 
  }
+
+
+ .cvA4{
+width: 210mm;
+height: 297mm;
+background: white;
+margin: 0 auto;
+border: solid black;
+display: flex;
+ }
+ .cvA4 .imgpart{
+    width: 100%;
+    height: 20%;
+    border: solid red;
+    background-color:white;
+    
+ }
+.cvA4 .leftpart{
+    width: 100%;
+    height: 80%;
+    background-color: gainsboro;
+    border: solid blue;
+    
+}
+.imgpart .photo-container {
+    display: flex;
+    justify-content: center;
+}
+.imgpart .photo-container img{
+    width: 56%;
+    height: 100%;
+    border-radius: 50%;
+    border: solid rgba(0, 0, 0, 0.842);
+    
+   
+}
+div.leftside{
+    width: 40%;
+    height: 100%;
+    border: solid green;
+    
+}
+div.rightside{
+    padding: 2.8 rem;
+
+}
+.rightside .banner .AdSoyad{
+    margin-top: 1rem;
+    font-family: 'Freeman';
+    font-size: 5rem;
+    letter-spacing: 0.001rem;
+    color:#4D4D4F;
+}
+.rightside .banner .email{
+    letter-spacing: 0.2rem;
+    margin-top: -0.5rem;
+}
+.banner a.linkedin img{
+height: 20%;
+width: 10%;
+}
+.banner a.linkedin{
+    height: 100%;
+    width: 100%;
+    margin-left: 1rem;
+    border:solid yellow;
+
+}
+
+img.okul109{
+    height: 20%;
+    width: 20%;
+
+
+}
+article.Lise{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+
+img.sau{
+    height: 20%;
+    width: 20%;
+}
+article.University{
+    display: flex;
+}
+.kisiselbilgiler-container{
+    border: solid aquamarine;
+    width: 100%;
+    height: 50%;
+}
+.egitim-container{
+    width: 100%;
+    border: solid teal;
+    height: 50%;
+}
+img.tryos{
+height: 20%;
+width: 20%;
+}
+article.Tryos{
+    display: flex;
+}
+img.egeyos{
+    height: 20%;
+    width: 20%;
+}
+article.Egeyos{
+    display:flex;
+}
