@@ -521,67 +521,55 @@ border: solid black;
 display: flex;
  }
  .cvA4 .imgpart{
-    width: 100%;
-    height: 20%;
+    
     border: solid red;
     background-color:white;
     
  }
-.cvA4 .leftpart{
-    width: 100%;
-    height: 80%;
-    background-color: gainsboro;
-    border: solid blue;
+header.Cvimg img{
+width: 100%;
+    height: 40%;
     
-}
-.imgpart .photo-container {
-    display: flex;
-    justify-content: center;
-}
-.imgpart .photo-container img{
-    width: 56%;
-    height: 100%;
     border-radius: 50%;
     border: solid rgba(0, 0, 0, 0.842);
     
    
 }
 div.leftside{
-    width: 40%;
+    background-color: gainsboro;
+    width: 50%;
     height: 100%;
-    border: solid green;
+   
+    
     
 }
 div.rightside{
     padding: 2.8 rem;
+    background-color:whitesmoke;
 
 }
 .rightside .banner .AdSoyad{
     margin-top: 1rem;
+    margin-left: 1rem;
     font-family: 'Freeman';
     font-size: 5rem;
     letter-spacing: 0.001rem;
     color:#4D4D4F;
+    text-align: center;
 }
 .rightside .banner .email{
     letter-spacing: 0.2rem;
     margin-top: -0.5rem;
-}
-.banner a.linkedin img{
-height: 20%;
-width: 10%;
-}
-.banner a.linkedin{
-    height: 100%;
-    width: 100%;
-    margin-left: 1rem;
-    border:solid yellow;
+    margin-left: 1.5rem;
 
+    text-align: center;
 }
+
+
 
 img.okul109{
-    height: 20%;
-    width: 20%;
+    height: 10%;
+    width: 10%;
 
 
 }
@@ -592,33 +580,76 @@ article.Lise{
 
 
 img.sau{
-    height: 20%;
-    width: 20%;
+    height: 10%;
+    width: 10%;
 }
 article.University{
     display: flex;
+   
 }
 .kisiselbilgiler-container{
-    border: solid aquamarine;
-    width: 100%;
-    height: 50%;
+    
+ 
+    
 }
 .egitim-container{
-    width: 100%;
-    border: solid teal;
-    height: 50%;
+    
+    
+    
+    
+    
+}
+.basrimlar-container  mark{
+    background-color: yellow;
+    
+  
+}
+.gelisim-container{
+   
+   
+}
+.hobiler-container
+{
+   
 }
 img.tryos{
-height: 20%;
-width: 20%;
+height: 10%;
+width: 10%;
 }
 article.Tryos{
     display: flex;
+    margin: 0 auto;
+    justify-content: center;
 }
 img.egeyos{
-    height: 20%;
-    width: 20%;
+    height: 10%;
+    width: 10%;
 }
 article.Egeyos{
     display:flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+img.omuyos{
+    height: 10%;
+    width: 10%;
+}
+article.Omuyos{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+img.smhlinkedin{
+    height: 100%;
+    width: 50%;
+}
+img.smhgithub{
+    height: 100%;
+    width: 50%;
+}
+h2.title{
+    background-color:rgb(2, 72, 2);
+    color: white;
+    text-align: center;
+    border: solid rgb(63, 63, 63);
 }
