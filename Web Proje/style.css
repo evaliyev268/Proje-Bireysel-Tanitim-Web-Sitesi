@@ -5,8 +5,7 @@ box-sizing: border-box;
 }
 body{
     height: 100vh;
-    justify-content: center;
-    
+ 
     
 }
 .navbar{
@@ -54,9 +53,6 @@ div.divsitebasliklari{
     font-size: 35px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-
-
 div.HakkimdaResimVeMetn{
     display: flex;
     margin: 150px auto;
@@ -85,9 +81,6 @@ div.HakkindaResim img{
   margin-top: 15px;
   padding-top: 50px;
   font-family:'Freeman';
-  
-   
-    
 }
 div.sehrimGenelBaslik{
     
@@ -587,31 +580,16 @@ article.University{
     display: flex;
    
 }
-.kisiselbilgiler-container{
-    
- 
-    
-}
-.egitim-container{
-    
-    
-    
-    
-    
-}
+
+
+
 .basrimlar-container  mark{
     background-color: yellow;
     
   
 }
-.gelisim-container{
-   
-   
-}
-.hobiler-container
-{
-   
-}
+
+
 img.tryos{
 height: 10%;
 width: 10%;
@@ -652,4 +630,41 @@ h2.title{
     color: white;
     text-align: center;
     border: solid rgb(63, 63, 63);
+}
+.cvA4 li{
+    font-family: 'Oswald';
+}
+.rightside footer{
+    background-color: white;
+    margin-top: 5rem;
+    text-align: center;
+    color: black;
+    font-family: 'Jost';
+
+}
+h1.mtitle{
+    color: red;
+    text-align: center;
+}
+form.mform{
+    text-align: center;
+    
+}
+
+.showlarimg-container{
+    display: grid;
+    width: 80%;
+    gap:10px;
+    margin:10px auto;
+    place-content: center;
+    grid-template-columns: repeat(auto-fit,minmax(220px,0.4fr));
+    
+
+}
+.sform{
+    text-align: center;
+    
+}
+.stitle{
+    text-align: center;
 }
