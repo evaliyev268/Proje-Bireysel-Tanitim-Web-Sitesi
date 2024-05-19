@@ -7,7 +7,7 @@
     <!--Css(Bootstrap) Başlangıc -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>İletişim</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
     rel="stylesheet" 
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
@@ -98,6 +98,96 @@ crossorigin="anonymous"></script>
     
     </div>
     </section>
+
+    
+<form action="iletisim.php" class="iletisimff" id="iform" method="post">
+  <ul class="formlist">
+    <li>
+  <label for="Adiniz">Adınız:</label><br>
+  <input type="text" id="iad" name="Adiniz" autofocus>
+  
+  <br>
+  <small id="iad_error"></small>
+</li>
+  <br>
+  <li>
+  <label for="Soyadiniz">Soyadınız:</label><br>
+  <input type="text" id="isoyad" name="Soyadiniz">
+  
+  <br>
+  <small id="isoyad_error"></small>
+</li>
+  <br>
+  <li>
+  <label for="Emailadres">E-Mail:</label><br>
+  <input type="email" id="iemail" name="Emailadres"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" class="">
+  
+  <br>
+  <small id="iemail_error"></small>
+</li>
+  <br>
+  <li>
+  <label for="checkboxlarim">Müracaat Tipi:</label> <br>
+  <input type="checkbox" id="icheckbox" name="mt" value="a1">"İlgili Alanda" Soru Sormak <br>
+  <input type="checkbox" id="icheckbox" name="mt" value="a2">"İlgili Alanda" İş Birliği <br>
+  <input type="checkbox" id="icheckbox" name="mt" value="a3">"İlgili Alanda" Makale Talebi <br>
+  <small id="icheckbox_error"></small>
+</li>
+ <br>
+ <li>
+  <label for="Makaletipi">İlgili Makale Tipi:</label> <br>
+  <select name="makaletipleri">
+    <option id="ioption" value="">Seçin</option>
+    <option id="ioption" value="bos">Bu Kısmı Boş Bırakmak İstiyorum</option>
+    <option id="ioption" value="yazılım">Yazılım</option>
+    <option id="ioption" value="diksiyon">Diksiyon Eğitimi</option>
+    <option id="ioption" value="psikoloji">Psikoloji</option>
+    <option id="ioption" value="projeyonetimi">Proje Yonetimi</option>
+  </select>
+  <br>
+  <small id="ioption_error"></small>
+</li>
+  <br>
+  <li>
+  <label for="Cinsiyyet">Cinsiyyet:</label> <br>
+  <input type="radio" id="iradio" name="Cinsiyyet">Erkek <br>
+  <input type="radio" id="iradio" name="Cinsiyyet">Kadın<br>
+  <small id="iradio_error"></small>
+</li>
+  <br> 
+  <br>
+  <li>
+  <label for="mesajiniz">Mesajınız:</label> <br>
+  <textarea name="mesajiniZ" id="itexta" rows="10" cols="30" placeholder="Mesajınızı Giriniz..."> 
+
+  </textarea>
+  
+ <br>
+ <small id="itexta_error"></small>
+</li>
+ <br> 
+ <li>
+ <input type="submit" class="sbtn1" name="sbmt1" value="Gönder">
+ <input type="submit" class="sbtn2" name="sbmt2" value="Gönder( with FRM)">
+ <br>
+</li>
+ <br>
+ <li>
+ <input type="reset" value="Formu Temizle">
+</li>
+
+
+
+
+  
+
+    
+
+</ul>
+</form>
+
+    <script src="./İletisim.js" > </script>
+    
 </body>
 
 

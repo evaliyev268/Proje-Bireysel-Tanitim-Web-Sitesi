@@ -668,3 +668,45 @@ form.mform{
 .stitle{
     text-align: center;
 }
+.iletisimff{
+    width: 80%;
+    margin: 20px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     border: 1px solid #000000;
+     text-align: center;
+     padding: 25px;
+
+     
+}
+input not([type="checkbox"]):not([type="radio"]) {
+    width: 50%;
+}
+
+.sbtn1{
+    width:10rem;
+    background-color: black;
+    color: white;
+}
+.sbtn2{
+    width:10rem;
+    background-color: gray;
+    color:black;
+    
+}
+.formlist{
+    list-style-type: none;
+}
+small{
+    color: orangered;
+}
+.frmug{
+    width: 80%;
+    margin: 20px auto;
+    font-family:'Oswald';
+     border: 1px solid #000000;
+     text-align: center;
+     padding: 25px;
+}
+.ug{
+list-style-type: none;
+}
