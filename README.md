@@ -1,2 +1,2 @@
-# Haştiyemel, Cısısı, Butstrəp,Cavaskript və Piecpi kodlarından ibarət proje ödəvim(Yasamallılara Salam olsun!)
+# Haştiyemel, Css, Bootstrap,Javascript və Php kodlarından oluşan proje ödevim
 BSM104-Web Teknolojleri Proje Ödevi
